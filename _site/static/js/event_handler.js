@@ -115,19 +115,19 @@ document.addEventListener('DOMContentLoaded', domReady);
                         image.src = 'resources/rendering/replica/room2';
                         break;
                     case 3:
-                        image.src = 'resources/rendering/replica/room3';
-                        break;
-                    case 4:
-                        image.src = 'resources/rendering/replica/room4';
-                        break;
-                    case 5:
                         image.src = 'resources/rendering/replica/office0';
                         break;
-                    case 6:
+                    case 4:
                         image.src = 'resources/rendering/replica/office1';
                         break;
-                    case 7:
+                    case 5:
                         image.src = 'resources/rendering/replica/office2';
+                        break;
+                    case 6:
+                        image.src = 'resources/rendering/replica/office3';
+                        break;
+                    case 7:
+                        image.src = 'resources/rendering/replica/office4';
                         break;    
                 }
                 switch (i) {
@@ -135,19 +135,16 @@ document.addEventListener('DOMContentLoaded', domReady);
                         image.src = image.src + '_nice.jpg';
                         break;
                     case 1:
-                        image.src = image.src + '_nerfslam.jpg';
-                        break;
-                    case 2:
                         image.src = image.src + '_dim.jpg';
                         break;
-                    case 3:
+                    case 2:
                         image.src = image.src + '_droid.jpg';
                         break;
-                    case 4:
-                        image.src = image.src + '_ours.jpg';
+                    case 3:
+                        image.src = image.src + '_ours.png';
                         break;
-                    case 5:
-                        image.src = image.src + '_gt.jpg';
+                    case 4:
+                        image.src = image.src + '_gt.png';
                         break;
 
                 }
